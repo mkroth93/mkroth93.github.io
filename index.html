@@ -2,11 +2,20 @@
 <html>
 	<head>
 		<title>My Page</title> <!-- Title shown on Tab -->
+		<meta name="keywords" content="" <!-- Search keywords -->
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/styles.css" />  <!-- links css file -->>
+		<style>
+			ul
+			{
+				color:blue;
+			}
+		</style>
+		
 	</head>
 	<body> <!-- Displays content on web page -->
-		<p>This is a paragraph <br>
-			<img src="images/corgi.jpg" width="200">
+		<p id="Section">This is a paragraph <br>
+			<img src="images/corgi.jpg" width="200">  <!-- Displays an image -->
 		</p> <!-- Paragraph tab -->
 		<div></div> <!-- A container -->
 		<span></span> <!-- Wide as the element -->
@@ -14,5 +23,27 @@
 		<em>Italic</em> <!-- Italic -->
 		&copy; <!-- creates a Copy symbol -->
 		&lt;/section&gt; 
+		<nav>
+			<ul id="Contacts"> <!-- unordered list/uses bullet points as default -->
+				<li><a href="http://www.otc.edu" target="_blank">OTC</a></li>  <!-- Links a website/Opens in new tab -->
+				<li><a href="mailto: example@gmail.com">Example Email</a></li> <!-- Links a email -->
+				<li><a href="tel:+14174477500">(417)417-17500</a></li>  <!-- Links a Phone number -->
+				<li><a href="#mySection">Section</a></li> <!-- Takes you to a section of the web page -->
+			</ul>
+			
+			<ol style="color:#ff00ff;"> <!-- ordered list/uses numbers as default with an in-line style -->
+				<li><a href="http://www.otc.edu" target="_blank">OTC</a></li>  <!-- Links a website/Opens in new tab -->
+				<li><a href="mailto: example@gmail.com">Example Email</a></li> <!-- Links a email -->
+				<li><a href="tel:+14174477500">(417)417-17500</a></li>  <!-- Links a Phone number-->
+				<li><a href="#mySection">Section</a></li> <!-- Takes you to a section of the web page -->
+			</ol>
+			
+			<a href="Example.docx">Example</a> <!-- downloads a document -->
+			
+			<dl>
+				<dt>HTML</dt>
+				<dd>Hypertext Markup Language</dd>
+			</dl>
+		</nav>
 	</body>
 </html>
