@@ -1,16 +1,21 @@
 @charset "utf-8";
-@font-face {
+@font-face 
+{
 	font-family: Champagne;
-	src: url('cac_champagne.woff') format('woff'),
-		 url('cac_champagne.ttf') format('ttf');
-	
+	src: url(cac_champagne.woff) format('woff'),
+		 url(cac_champagne.ttf) format('ttf');
+}
+@font-face
+{
 	font-family: Grunge;
-	src: url('1942.woff') format('woff'),
-		 url('1942.ttf') format('ttf');
-		 
+	src: url(1942.woff) format('woff'),
+		 url(1942.ttf) format('ttf');
+}
+@font-face
+{
 	font-family: Dobkin;
-	src: url('DobkinPlain.woff') format('woff'),
-		 url('DobkinPlain.ttf') format('ttf');
+	src: url(DobkinPlain.woff) format('woff'),
+		 url(DobkinPlain.ttf) format('ttf');
 }
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
@@ -35,7 +40,7 @@ html
 body
 {
 	background-color: hsl(58,31%,84%);
-	font: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 header
@@ -66,7 +71,7 @@ address
 /* Navigation Styles */
 nav a
 {
-	font: 'Trebuchet MS', Helvetica, sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -91,12 +96,13 @@ section.playbill h1
 	font-size: 3em;
 	font-weight: normal;
 	margin: 0px;
-	padding: 20px,0px,10px,20px;
+	padding: 20px 0px 10px 20px;
+	
 }
 
 #play1
 {
-	background-color: hsl(240,100%,88);
+	background-color: hsl(240,100%,88%);
 }
 #play2
 {
@@ -116,7 +122,7 @@ section.playbill h1
 }
 #play2 h1
 {
-	font-family: Grunge, 'Times New Roman', Times, serif;
+	font-family: Grunge, "Times New Roman", Times, serif;
 }
 #play3 h1
 {
