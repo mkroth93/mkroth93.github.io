@@ -76,7 +76,7 @@ nav a
 	padding-bottom: 10px;
 }
 
-a:link, a:visited
+nav a:link, nav a:visited
 {
 	color: white;
 	text-decoration: none;
@@ -84,7 +84,7 @@ a:link, a:visited
 }
 
 
-a:active, a:hover
+nav a:active, nav a:hover
 {
 	color: hsla(0,0%,100%,0.7);
 	background-color: hsl(0,0%,42%,0.7);
