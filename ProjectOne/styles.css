@@ -16,11 +16,11 @@ html
 	padding-right: 15px;
 }
 
-#contact
+.contact
 {
-	padding-top: auto;
+	margin-top: auto;
 	padding-left: 15px;
-	padding-bottom: auto;
+	margin-bottom: auto;
 	padding-right: 15px;
 	width: 60%;
 }
