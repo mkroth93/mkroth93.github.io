@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* Name: Michael Kroth
+   Date: 02/13/19
+   Title: Diet Water */
+
+html
+{
+	background-color: #708090;
+	color: #FFA500;
+}
+
+#main
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#contact
+{
+	padding-top: auto;
+	padding-left: 15px;
+	padding-bottom: auto;
+	padding-right: 15px;
+	width: 60%;
+}
+
+a:link
+{
+	color: #7FFF00;
+}
+
+a:hover, a:focus
+{
+	color: #00FFFF;
+}
+
+a:visited
+{
+	color: 	#8B0000;
+}
