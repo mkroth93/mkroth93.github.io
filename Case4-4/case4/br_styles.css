@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 4
+   Case Problem 4
+   
+   Browyer Realty Layout Styles
+   Author: Michael Kroth
+   Date:   3/18/19
+	
+   Filename: br_styles.css
+
+*/
+
+header
+{
+	background-image: url("br_logo.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+nav.top_links ul 
+{
+   display: block;
+   font-size: 15px;
+   float: left;
+   line-height: 30px;
+   height: 30px;
+   width: 192px;
+}
+
+nav.top_links a
+{
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}
