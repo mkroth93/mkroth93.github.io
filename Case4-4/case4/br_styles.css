@@ -12,13 +12,7 @@
    Filename: br_styles.css
 
 */
-html
-{
-	background-image: url("br_paper.png");
-	background-position: top left;
-	background-repeat: no-repeat;
-	background-size: 100%;
-}
+
 body > header > img
 {
    background-color: rgb(214, 155, 17);
@@ -109,9 +103,13 @@ img
 
 /*Address and Listing Info Style */
 
-address, #p4
+#info
 {
   text-shadow: 2px 2px #c1c1bb;
+  background-image: url("br_paper.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 
