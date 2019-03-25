@@ -54,7 +54,7 @@ nav.top_links a
    
 nav.top_links a:link, nav.top_links:visited 
 {
-   color: rgb(37, 252, 245);
+   color: rgb(0, 0, 0);
 }
 
 nav.top_links a:hover, nav.top_links:active 
@@ -78,7 +78,7 @@ nav.bottom_links a
 }
 nav.bottom_links a:link, nav.bottom_links:visited 
 {
-   color: rgb(37, 252, 245);
+   color: rgb(0, 0, 0);
 }
 
 nav.bottom_links a:hover, nav.bottom_links:active 
