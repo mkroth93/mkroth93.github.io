@@ -12,6 +12,13 @@
    Filename: br_styles.css
 
 */
+html
+{
+	background-image: url("br_paper.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
 body > header > img
 {
    background-color: rgb(214, 155, 17);
