@@ -73,6 +73,26 @@ article
 		flex-wrap: nowrap;
 		height: 40px;
 	}
+}
+
+
+
+/* ===================================================
+	Tablet and Desktop Devices: Greater than 480 pixels
+   ===================================================
+*/
+@media only screen and (min-width: 480px)
+{
+	nav.horizontal ul
+	{
+		display: flex;
+	}
+	nav.horizontal ul li
+	{
+		flex-grow: 1;
+		flex-shrink: 1;
+		flex-basis: auto;
+	}
 	img.size1
 	{
 		width: 100%;
@@ -89,21 +109,4 @@ article
 	{
 		width: 30%;
 	}
-}
-
-
-
-/* ===================================================
-	Tablet and Desktop Devices: Greater than 480 pixels
-   ===================================================
-*/
-nav.horizontal ul
-{
-	display: flex;
-}
-nav.horizontal ul li
-{
-	flex-grow: 1;
-	flex-shrink: 1;
-	flex-basis: auto;
 }
