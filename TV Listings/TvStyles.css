@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 
 html,body {
   margin: 20px;
@@ -8,15 +8,15 @@ html,body {
 
 body {
   display: flex;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-size: 90%;
   color: #333;
   justify-content: center;
 }
 
 .schedule {
-  border: 1px solid black;
   display: table;
+  overflow: scroll;
 }
 
 table {
@@ -46,13 +46,15 @@ th {
   border: 1px solid black;
 }
 
+.oddBlock {
+  background-color: #e4e5d0;
+}
 
-
-.ky3{
+.hist{
   font-weight: bold;
   background-color: #f7e19e;
 }
-.syfy{
+.fx{
   font-weight: bold;
   background-color: #c9eef2;
 }
