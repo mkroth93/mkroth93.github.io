@@ -58,7 +58,7 @@
 				<label for="city">City</label>
 				<input type="text" name="city" id="cityBox" required="required"/><br/>
 				<label for="state">State</label>
-				<input type="text" name="state" id="stateBox" required="required" list="states"/><br/>
+				<input type="text" name="state" id="stateBox" required="required" list="stateList"/><br/>
 				<datalist id="stateList">
 					<option value="AL"/>
 					<option value="AK"/>
@@ -121,18 +121,56 @@
 			</fieldset>
 			<fieldset id="creditCard">
 				<legend>Credit Card (required)</legend>
-				<fieldset>
+				<fieldset required="required">
 					<label class="cardLabel">
-						<input type="radio" value="amex">
+						<input name="option" type="radio" value="amex"/>
 							<img src="sb_amex.png"/>
 					</label>
 					<label class="cardLabel">
-						
+						<input name="option" type="radio" value="discover"/>
+							<img src="sb_discover.png"/>
 					</label>
-					<label class="cardLabel"></label>
-					<label class="cardLabel"></label>
+					<label class="cardLabel">
+						<input name="option" type="radio" value="master"/>
+							<img src="sb_master.png"/>
+					</label>
+					<label class="cardLabel">
+						<input name="option" type="radio" value="visa"/>
+							<img src="sb_visa.png"/>
+					</label>
 				</fieldset>
+				<label for="cardNumber">Credit Card Number</label>
+				<input id="cardBox" required="required" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$" />
+				<label for="expirationDate">Expiration Date</label>
+				<select name="monthList" id="monthList" required="required">
+					<option value="">--Month--</option>
+					<option value="01">January (01)</option>
+					<option value="02">February (02)</option>
+					<option value="03">March (03)</option>
+					<option value="04">April (04)</option>
+					<option value="05">May (05)</option>
+					<option value="06">June (06)</option>
+					<option value="07">July (07)</option>
+					<option value="08">August (08)</option>
+					<option value="09">September (09)</option>
+					<option value="10">October (10)</option>
+					<option value="11">November (11)</option>
+					<option value="12">December (12)</option>
+				</select>
+				<select name="yearList" id="yearList" required="required">
+					<option value="">--Year--</option>
+					<option value="2017">2017</option>
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+				</select>
+				<label for="cscBox">CSC</label>
+				<input type="text" id="cscBox" required="required" maxlength="3" placeholder="nnn" pattern="^\d{3}$"/>
 			</fieldset>
+			<button type="submit">
+				<img src="sb_button.png" alt="next" />
+			</button>
 		</form>
       <aside>
          <h1>Menu Ideas</h1>
