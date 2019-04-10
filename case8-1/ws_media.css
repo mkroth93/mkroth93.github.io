@@ -14,10 +14,24 @@
 */
 
 /* VideoPlayer Styles */
-
-
+video{
+	display:block;
+	width:90%;
+	margin:5 auto 5 auto;
+}
+@media screen and (min-device-width: 521px){
+	video{
+		width:360px;
+		float:right;
+		margin:10px;
+	}
+}
 
 
 /* Track Styles */
-
+::cue{
+	font:1.3em sans-serif;
+	color: rgb(221,128,160);
+	background-color: rgba(225,225,225,0.8);
+}
 
