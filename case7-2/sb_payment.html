@@ -48,101 +48,101 @@
 			<fieldset id="billing">
 				<legend>Billing Information (required)</legend>
 				<label for="fname" >First Name</label>
-				<input type="text" name="fname" id="firstBox" required="required" /><br/>
+				<input type="text" name="firstBox" id="fname" required="required" /><br/>
 				<label for="lname">Last Name</label>
-				<input type="text" name="lname" id="lastBox" required="required"/><br/>
+				<input type="text" name="lastBox" id="lname" required="required"/><br/>
 				<label for="address-line1">Street Address</label>
-				<input type="text" name="street" id="streetBox" required="required"/><br/>
+				<input type="text" name="streetBox" id="address-line1" required="required"/><br/>
 				<label for="address-line2">Street Address (2)</label>
-				<input type="text" name="street2" id="streetBox2" /><br/>
+				<input type="text" name="streetBox2" id="address-line2" /><br/>
 				<label for="city">City</label>
-				<input type="text" name="city" id="cityBox" required="required"/><br/>
+				<input type="text" name="cityBox" id="city" required="required"/><br/>
 				<label for="state">State</label>
-				<input type="text" name="state" id="stateBox" required="required" list="stateList"/><br/>
+				<input type="text" name="stateBox" id="state" required="required" list="stateList"/><br/>
 				<datalist id="stateList">
-					<option value="AL"/>
-					<option value="AK"/>
-					<option value="AR"/>
-					<option value="AZ"/>
-					<option value="CA"/>
-					<option value="CO"/>
-					<option value="CT"/>
-					<option value="DC"/>
-					<option value="DE"/>
-					<option value="FL"/>
-					<option value="GA"/>
-					<option value="HI"/>
-					<option value="IA"/>	
-					<option value="ID"/>
-					<option value="IL"/>
-					<option value="IN"/>
-					<option value="KS"/>
-					<option value="KY"/>
-					<option value="LA"/>
-					<option value="MA"/>
-					<option value="MD"/>
-					<option value="ME"/>
-					<option value="MI"/>
-					<option value="MN"/>
-					<option value="MO"/>	
-					<option value="MS"/>
-					<option value="MT"/>
-					<option value="NC"/>	
-					<option value="NE"/>
-					<option value="NH"/>
-					<option value="NJ"/>
-					<option value="NM"/>			
-					<option value="NV"/>
-					<option value="NY"/>
-					<option value="ND"/>
-					<option value="OH"/>
-					<option value="OK"/>
-					<option value="OR"/>
-					<option value="PA"/>
-					<option value="RI"/>
-					<option value="SC"/>
-					<option value="SD"/>
-					<option value="TN"/>
-					<option value="TX"/>
-					<option value="UT"/>
-					<option value="VT"/>
-					<option value="VA"/>
-					<option value="WA"/>
-					<option value="WI"/>	
-					<option value="WV"/>
-					<option value="WY"/>		
+					<option value="AL"></option>
+					<option value="AK"></option>
+					<option value="AR"></option>
+					<option value="AZ"></option>
+					<option value="CA"></option>
+					<option value="CO"></option>
+					<option value="CT"></option>
+					<option value="DC"></option>
+					<option value="DE"></option>
+					<option value="FL"></option>
+					<option value="GA"></option>
+					<option value="HI"></option>
+					<option value="IA"></option>
+					<option value="ID"></option>
+					<option value="IL"></option>
+					<option value="IN"></option>
+					<option value="KS"></option>
+					<option value="KY"></option>
+					<option value="LA"></option>
+					<option value="MA"></option>
+					<option value="MD"></option>
+					<option value="ME"></option>
+					<option value="MI"></option>
+					<option value="MN"></option>
+					<option value="MO"></option>
+					<option value="MS"></option>
+					<option value="MT"></option>
+					<option value="NC"></option>
+					<option value="NE"></option>
+					<option value="NH"></option>
+					<option value="NJ"></option>
+					<option value="NM"></option>
+					<option value="NV"></option>
+					<option value="NY"></option>
+					<option value="ND"></option>
+					<option value="OH"></option>
+					<option value="OK"></option>
+					<option value="OR"></option>
+					<option value="PA"></option>
+					<option value="RI"></option>
+					<option value="SC"></option>
+					<option value="SD"></option>
+					<option value="TN"></option>
+					<option value="TX"></option>
+					<option value="UT"></option>
+					<option value="VT"></option>
+					<option value="VA"></option>
+					<option value="WA"></option>
+					<option value="WI"></option>
+					<option value="WV"></option>
+					<option value="WY"></option>
 				</datalist><br />
 				<label for="zip">ZIP/Postal Code</label>
-				<input type="text" name="zip" id="zipBox" pattern="^\d{5}(-\d{4})?$"/><br/>
+				<input type="text" name="zipBox" id="zip" pattern="^\d{5}(-\d{4})?$"/><br/>
 				<label for="country">Country</label>
-				<input type="text" name="country" id="countryBox" required="required" value="United States"/><br/>
+				<input type="text" name="countryBox" id="country" required="required" value="United States"/><br/>
 				<label for="phone">Phone</label>
-				<input type="tel" name="phone" id="phoneBox" required="required" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/><br/>
+				<input type="tel" name="phoneBox" id="phone" required="required" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/><br/>
 			</fieldset>
 			<fieldset id="creditCard">
 				<legend>Credit Card (required)</legend>
-				<fieldset required="required">
+				<fieldset>
 					<label class="cardLabel">
-						<input name="option" type="radio" value="amex"/>
-							<img src="sb_amex.png"/>
+						<input name="option" type="radio" value="amex" required="required"/>
+							<img src="sb_amex.png" alt="amex"/>
 					</label>
 					<label class="cardLabel">
-						<input name="option" type="radio" value="discover"/>
-							<img src="sb_discover.png"/>
+						<input name="option" type="radio" value="discover" required="required"/>
+							<img src="sb_discover.png" alt="discover"/>
 					</label>
 					<label class="cardLabel">
-						<input name="option" type="radio" value="master"/>
-							<img src="sb_master.png"/>
+						<input name="option" type="radio" value="master" required="required"/>
+							<img src="sb_master.png" alt="master"/>
 					</label>
 					<label class="cardLabel">
-						<input name="option" type="radio" value="visa"/>
-							<img src="sb_visa.png"/>
+						<input name="option" type="radio" value="visa" required="required"/>
+							<img src="sb_visa.png" alt="visa"/>
 					</label>
 				</fieldset>
 				<label for="cardNumber">Credit Card Number</label>
-				<input id="cardBox" required="required" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$" />
-				<label for="expirationDate">Expiration Date</label>
-				<select name="monthList" id="monthList" required="required">
+				<input name="cardBox" id="cardNumber" required="required" pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})$" />
+				<label for="monthList">Expiration Date</label>
+				<select name="cardMonth" id="monthList" required="required">
 					<option value="">--Month--</option>
 					<option value="01">January (01)</option>
 					<option value="02">February (02)</option>
@@ -157,7 +157,7 @@
 					<option value="11">November (11)</option>
 					<option value="12">December (12)</option>
 				</select>
-				<select name="yearList" id="yearList" required="required">
+				<select name="cardYear" id="yearList" required="required">
 					<option value="">--Year--</option>
 					<option value="2017">2017</option>
 					<option value="2018">2018</option>
