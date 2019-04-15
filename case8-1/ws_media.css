@@ -17,7 +17,7 @@
 video{
 	display:block;
 	width:90%;
-	margin:5 auto 5 auto;
+	margin:5px auto 5px auto;
 }
 @media screen and (min-device-width: 521px){
 	video{
