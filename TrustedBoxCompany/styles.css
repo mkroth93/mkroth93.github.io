@@ -1,0 +1,93 @@
+﻿/* 
+         Final
+         Filename: styles
+      
+         Author:   Michael Kroth
+         Date:     04/15/19
+         HTML5 and CSS3 Illustrated Final
+ */
+
+/* reset styles */
+html {font-family: 'Ranga', cursive;
+   font-size: 14px;
+   height:100%;
+}
+article, aside, body, div, footer, header, h1, h2, h3, nav, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+  font-family: 'Lora', serif;
+ 
+}
+
+/* body and page container */
+
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #a58855;
+}
+
+
+p {
+   font-size: 1.2em;
+}
+
+#HomeContainer{
+	width: 75%;
+	margin: auto;
+	border-radius: 15px;
+	background-color: tan;
+}
+
+
+
+nav.horizontal ul li {
+   background-color: rgb(96, 87, 70);
+   display: block;
+   font-size: 15px;
+   float: left;
+   line-height: 30px;
+   height: 30px;
+   width: 200px;
+}
+
+nav.horizontal a {
+   display: block;
+   text-align: center;
+   text-decoration: none;
+}
+
+nav ul li a {
+   color: rgb(28,114,140);
+}
+ 
+nav ul li a:hover {
+   color: rgb(255,218,250);
+   text-shadow: black 0px 0px 2px, black 0px 0px 5px, black 0px 0px 20px;
+}
+
+footer {
+	background-color: black;
+	color: white;
+}
+
+.header img {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
