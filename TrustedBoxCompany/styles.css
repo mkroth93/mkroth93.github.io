@@ -28,9 +28,16 @@ body {
    background-color: #a58855;
 }
 
-
 p {
    font-size: 1.2em;
+}
+
+/* Home page styles */
+
+#Hparagraph{
+	text-align:center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #HomeContainer{
@@ -40,43 +47,56 @@ p {
 	background-color: tan;
 }
 
-
-
-nav.horizontal ul li {
-   background-color: rgb(96, 87, 70);
-   display: block;
-   font-size: 15px;
-   float: left;
-   line-height: 30px;
-   height: 30px;
-   width: 200px;
+header{
+	overflow: hidden;
+	padding: 20px 10px;
 }
 
-nav.horizontal a {
-   display: block;
-   text-align: center;
-   text-decoration: none;
-}
-
-nav ul li a {
-   color: rgb(28,114,140);
-}
- 
-nav ul li a:hover {
-   color: rgb(255,218,250);
-   text-shadow: black 0px 0px 2px, black 0px 0px 5px, black 0px 0px 20px;
-}
-
-footer {
-	margin: 5px auto 5px auto;
-	background-color: black;
-	color: white;
+h1{
+	text-align: center;
 }
 
 .header img {
-	float: left;
-	width: 100px;
-	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	height: 25%;
+}
+
+#topLinks{
+	text-align: center;
+}
+
+#topLinks li {
+   background-color: rgb(96, 87, 70);
+   display: inline;
+   font-size: 15px;
+   line-height: 30px;
+   height: 30px;
+   width: 192px;
+}
+
+#topLinks a {
+   padding: 0 30px;
+   display: inline-block;
+   text-align: center;
+   text-decoration: none;
+}
+   
+nav.horizontal a:link, nav.horizontal:visited {
+   color: rgb(216, 194, 157);
+}
+
+nav.horizontal a:hover, nav.horizontal:active {
+   background-color: rgb(62, 56, 45);
+}
+
+footer {
+	text-align: center;
+	border-radius: 15px;
+	background-color: black;
+	color: white;
 }
 
 .video-responsive{
@@ -91,4 +111,39 @@ footer {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+
+/*Hours page styles */
+
+h2{
+	text-align: center;
+}
+
+#colHead1, #colHead2{
+	font-size: 20px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  border: 1px solid black;
+  table-layout: fixed;
+  width: 50%;
+  border-collapse: collapse;
+}
+
+.evenBlock{
+	background-color: #e4e5d0;
+}
+
+td, th {
+  background-color: #d1d2d3;
+  white-space: nowrap;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  border-collapse: collapse;
+  position: sticky;
 }

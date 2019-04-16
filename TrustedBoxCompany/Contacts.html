@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<title>Trusted Box Company - Home</title>
@@ -27,16 +27,21 @@
 					</ul>
 				</nav>
 			</header>
-			
-			<p id="Hparagraph">
-				Welcome to my the Trusted Box Company! Please feel free to take a look around. We sell a lot of boxes and I'm sure we have just what you're looking for!
-				Whether you need a small box for a ring or a box to fit an 18-wheeler, we have the box for you. We also make custom boxes to hold any shape you might need.
-				Have an unusually shaped gift that needs a box? We can make a box for you.
-			</p>
-			
-			<div class="video-responsive">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/y0d6SSmQSwE"  allow="accelerometer; gyroscope; picture-in-picture"></iframe>
-			</div>
+			<article>
+				<h2>Contact Us</h2>
+				<form id="contactForm">
+					<fieldset>
+						<label for="fname" >First Name</label>
+						<input type="text" name="fname" id="firtBox" required="required" /><br/>
+						<label for="lname">Last Name</label>
+						<input type="text" name="lname" id="lastBox" required="required"/><br/>
+						<label for="phone">Phone</label>
+						<input type="tel" name="phone" id="phoneBox" required="required" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/><br/>
+						<label for="email" >Email</label>
+						<input type="text" name="email" id="emailBox" required="required" /><br/>
+					</fieldset>
+				</form>
+			</article>
 			<footer>Trusted Box Company &copy2019 Springfield, MO</footer>
 		</div>
 	</body>
