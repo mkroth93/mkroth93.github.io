@@ -23,7 +23,7 @@
 						<li><a href="Home.html">Home</a></li>
 						<li><a href="Hours.html">Hours</a></li>
 						<li><a href="Contacts.html">Contact</a></li>
-						<li><a href="#">Location</a></li>
+						<li><a href="https://www.google.com/maps/@37.2143957,-93.2835236,15z" target="_blank">Location</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -39,6 +39,16 @@
 						<input type="tel" name="phone" id="phoneBox" required="required" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"/><br/>
 						<label for="email" >Email</label>
 						<input type="text" name="email" id="emailBox" required="required" /><br/>
+						<label for="hearAbout">How did you hear about us?</label>
+						<select name="hearAbout" required="required">
+							<option value=""></option>
+							<option value="internet">Internet</option>
+							<option value="radio">Radio</option>
+							<option value="newspaper">Newspaper</option>
+							<option value="tv">TV</option>
+							<option value="flyer">Flyer</option>
+						</select><br />
+						<textarea rows="4" cols="50" placeholder="Type your message here." required="required"></textarea>
 					</fieldset>
 				</form>
 			</article>
