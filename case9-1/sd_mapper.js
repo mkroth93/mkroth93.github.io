@@ -18,9 +18,8 @@ document.getElementById("timeStamp").innerHTML = timeStr;
 var thisMonth = thisTime.getMonth();
 var thisHour = thisTime.getHours();
 
-var mapNum = (2 * thisMonth + thisHour) % 4;
+var mapNum = ((2 * thisMonth) + thisHour) % 4;
 
-var imgStr = "<img src='sd_sky' + mapNum + '.png' />";
+var imgStr = "<img src='sd_sky" + mapNum + ".png' />";
 
 document.getElementById("planisphere").insertAdjacentHTML("afterbegin",imgStr);
-
