@@ -9,7 +9,9 @@
 		-->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="homeStyles.css">
+		<link rel="stylesheet" href="hoursStyles.css">
+		<link rel="stylesheet" href="contactsStyles.css">
 	</head>
 	<body>
 		<div id="HomeContainer">
@@ -27,7 +29,7 @@
 					</ul>
 				</nav>
 			</header>
-			<article>
+			<article id="contactContainer">
 				<h2>Contact Us</h2>
 				<form id="contactForm">
 					<fieldset>
@@ -50,6 +52,8 @@
 						</select><br />
 						<textarea rows="4" cols="50" placeholder="Type your message here." required="required"></textarea>
 					</fieldset>
+					<input type="submit" value="Submit" id="btnSubmit">
+					<input type="reset" value="Reset" id="btnReset">
 				</form>
 			</article>
 			<footer>Trusted Box Company &copy2019 Springfield, MO</footer>

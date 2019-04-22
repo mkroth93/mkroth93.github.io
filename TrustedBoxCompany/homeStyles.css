@@ -49,7 +49,6 @@ p {
 
 header{
 	overflow: hidden;
-	padding: 20px 10px;
 }
 
 h1{
@@ -69,7 +68,7 @@ h1{
 }
 
 #topLinks li {
-   background-color: rgb(96, 87, 70);
+   background-color: rgb(128, 173, 171);
    display: inline;
    font-size: 15px;
    line-height: 30px;
@@ -89,13 +88,32 @@ nav.horizontal a:link, nav.horizontal:visited {
 }
 
 nav.horizontal a:hover, nav.horizontal:active {
-   background-color: rgb(62, 56, 45);
+   background-color: rgb(128, 173, 171);
+}
+
+.skip {
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+	height: 1px;
+	width: 1px;
+	text-align: left;
+	overflow: hidden;
+}
+
+a.skip:active, a.skip:focus, a.skip:hover {
+	left: 0; 
+	top: 0;
+	width: auto; 
+	height: auto; 
+	overflow: visible; 
 }
 
 footer {
 	text-align: center;
 	background-color: black;
 	color: white;
+	margin-top: 10px;
 }
 
 .video-responsive{
@@ -112,64 +130,8 @@ footer {
     position:absolute;
 }
 
-
-/*Hours page styles */
-
-h2{
-	text-align: center;
-}
-
-#colHead1, #colHead2{
-	font-size: 20px;
-}
-
-table {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 10%;
-  border: 1px solid black;
-  table-layout: fixed;
-  width: 50%;
-  border-collapse: collapse;
-}
-
-.evenBlock{
-	background-color: #e4e5d0;
-}
-
-td, th {
-  background-color: #d1d2d3;
-  white-space: nowrap;
-  border: 1px solid black;
-  padding: 10px;
-  text-align: center;
-  border-collapse: collapse;
-  position: sticky;
-}
-
-/*Contacts page styles */
-fieldset {
-   border: none;
-   margin-top:15px;
-   margin-bottom: 15px;
-}
-
-label {
-   display: block;
-   float: left;
-   clear: left;
-   font-size: 0.9em;
-   margin-right: 10px;
-   width: 180px;
-   text-align: right;
-}
-
-input, select {
-   margin-bottom: 10px;
-}
-
-textarea{
-   display: block;
-   margin-left: 27%;
-   margin-right: auto;
+@media (max-width: 600px) {
+  #HomeContainer {   
+    flex-direction: column;
+  }
 }
