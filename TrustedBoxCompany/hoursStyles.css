@@ -46,3 +46,11 @@ td, th {
 	background-color: rgb(128, 173, 171);
 	padding-bottom: 1%;
 }
+
+@media (max-width: 600px) {
+	table{
+		width: 100%;
+		overflow-x: auto;
+		display: block;
+	}
+}

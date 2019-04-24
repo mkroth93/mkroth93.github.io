@@ -129,9 +129,3 @@ footer {
     width:100%;
     position:absolute;
 }
-
-@media (max-width: 600px) {
-  #HomeContainer {   
-    flex-direction: column;
-  }
-}
